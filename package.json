@@ -31,7 +31,7 @@
     "jsx"
   ],
   "dependencies": {
-    "buble": "^0.14.2",
+    "buble": "^0.15.2",
     "source-map-to-comment": "^1.1.0",
     "to-fast-properties": "^1.0.2"
   },
