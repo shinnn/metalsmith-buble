@@ -4,6 +4,7 @@ const path = require('path');
 const util = require('util');
 
 const buble = require('buble');
+const SafeBuffer = require('safe-buffer').Buffer;
 const sourceMapToComment = require('source-map-to-comment');
 const toFastProperties = require('to-fast-properties');
 
@@ -39,7 +40,7 @@ module.exports = function metalsmithBuble(options) {
 			if (options.sourceMap === true) {
 				const sourcemapPath = `${filename}.map`;
 				files[sourcemapPath] = {
-					contents: new Buffer(JSON.stringify(result.map))
+					contents: SafeBuffer.from(JSON.stringify(result.map))
 				};
 
 				result.code += `\n//# sourceMappingURL=${
@@ -49,7 +50,7 @@ module.exports = function metalsmithBuble(options) {
 				result.code += `\n${sourceMapToComment(result.map)}`;
 			}
 
-			files[filename].contents = new Buffer(result.code);
+			files[filename].contents = SafeBuffer.from(result.code);
 		});
 	};
 };
