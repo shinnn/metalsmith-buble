@@ -1,17 +1,15 @@
 # metalsmith-buble
 
-[![NPM version](https://img.shields.io/npm/v/metalsmith-buble.svg)](https://www.npmjs.com/package/metalsmith-buble)
+[![npm version](https://img.shields.io/npm/v/metalsmith-buble.svg)](https://www.npmjs.com/package/metalsmith-buble)
 [![Build Status](https://travis-ci.org/shinnn/metalsmith-buble.svg?branch=master)](https://travis-ci.org/shinnn/metalsmith-buble)
 [![Build status](https://ci.appveyor.com/api/projects/status/nevjeddyndcl5ubo/branch/master?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/metalsmith-buble/branch/master)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/metalsmith-buble.svg)](https://coveralls.io/r/shinnn/metalsmith-buble)
-[![dependencies Status](https://david-dm.org/shinnn/metalsmith-buble/status.svg)](https://david-dm.org/shinnn/metalsmith-buble)
-[![devDependencies Status](https://david-dm.org/shinnn/metalsmith-buble/dev-status.svg)](https://david-dm.org/shinnn/metalsmith-buble?type=dev)
 
-[Bublé](https://buble.surge.sh/guide/) plugin for [Metalsmith](http://www.metalsmith.io/)
+[Bublé](https://github.com/Rich-Harris/buble) plugin for [Metalsmith](http://www.metalsmith.io/)
 
 ## Installation
 
-[Use npm](https://docs.npmjs.com/cli/install):
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
 ```
 npm install metalsmith-buble
@@ -72,6 +70,4 @@ Default: `false`
 
 ## License
 
-Copyright (c) 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
-
-Licensed under [the MIT License](./LICENSE).
+[ISC License](./LICENSE) © 2017 Shinnosuke Watanabe
