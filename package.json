@@ -1,6 +1,6 @@
 {
 	"name": "metalsmith-buble",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Bublé plugin for Metalsmith",
 	"repository": "shinnn/metalsmith-buble",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
